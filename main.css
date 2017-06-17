@@ -7,7 +7,8 @@ body, html {
 
 body {
   font-family: Roboto;
-  font-size: 12px;
+  font-size: 16px;
+  line-height: 1.2em;
   color: #424242;
 }
 
@@ -266,6 +267,9 @@ main {
   padding: 1em;
 }
 
+.weather__box {
+  display: inline-block;
+}
 .weather__location {
   display: block;
   font-weight: 300;
@@ -273,12 +277,12 @@ main {
 }
 
 .weather__desc {
-  display: block;
+  display: inline-block;
   font-size: 1.2em;
 }
 
 .weather__today {
-  width: 60%;
+  width: 50%;
   vertical-align: middle;
 }
 
